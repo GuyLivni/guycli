@@ -1,0 +1,50 @@
+{
+  "name": "guylivni",
+  "version": "1.0.0",
+  "description": "A CLI for you to know me better",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir=build",
+    "prepare": "npm run build",
+    "prestart": "npm run build",
+    "start": "node build/index.js"
+  },
+  "author": "Guy Livni",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "build"
+  ],
+  "bin": {
+    "guylivni": "build/index.js"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "guyl",
+    "guylivni"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuyLivni/guycli.git"
+  },
+  "dependencies": {
+    "import-jsx": "^1.3.2",
+    "ink": "^2.0.5",
+    "ink-big-text": "^1.0.1",
+    "ink-gradient": "^1.0.0",
+    "ink-select-input": "^3.0.2",
+    "opn": "^5.4.0",
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}

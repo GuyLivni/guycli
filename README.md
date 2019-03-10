@@ -1,2 +1,2 @@
-# guylivni
-Guy Livni CLI for you to know me better
+# GuyLivni
+A CLI for you to know me better
