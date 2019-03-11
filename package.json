@@ -1,6 +1,6 @@
 {
   "name": "guylivni",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A CLI for you to know me better",
   "main": "build/index.js",
   "scripts": {
@@ -23,7 +23,9 @@
     "cli-app",
     "cli",
     "guyl",
-    "guylivni"
+    "guylivni",
+    "babel",
+    "ink"
   ],
   "license": "MIT",
   "repository": {
