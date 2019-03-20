@@ -1,6 +1,6 @@
 {
   "name": "guylivni",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CLI for you to know me better",
   "main": "build/index.js",
   "scripts": {
